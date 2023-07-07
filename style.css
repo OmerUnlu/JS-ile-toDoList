@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    align-items: center;
+}
+
+.main{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main .top{
+    display: flex;
+    justify-content: center;
+    padding: 30px 150px;
+}
+.main .top img{
+    width: 100px;
+    height: 100px;
+
+}
+.main .top h1{
+    text-align: center;
+    color: red;
+}
+
+.middle{
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.middle button{
+    height: 40px;
+    font-weight: 400;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+    margin: 5px;
+    background-color: white;
+}
+.middle button:hover{
+    font-size: larger;
+    font-weight: 600;
+}
+.middle input{
+    height: 40px;
+    font-weight: 400;
+    border-radius: 5px;
+    font-size: large;
+    margin: 5px;}
+
+.foot{
+    display: flex;
+    text-align: center;
+}
+.foot .footLeft{
+    background-color: antiquewhite;
+}
+.foot .footRight{
+    background-color:rgb(198, 244, 244);
+    display: flex;
+    flex-direction: column;
+}
+.foot .footRight div{
+    display: flex;
+    font-size: larger;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    width: fit-content;
+}
+.foot .footRight div i{
+    margin-left: 30px;
+}
+.foot h3{
+    font-size: x-large;
+    
+}
+
+#newUl div{
+    display: flex;
+}
+#newUl div li{
+    font-size: larger;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    width: fit-content;
+}
+#newUl div i{
+    font-size: large;
+    margin-left: 30px;
+}
+.fa-check{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 50%;
+}
+
+.fa-xmark{
+    background-color: rgb(126, 2, 2);
+    color: white;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 50%;
+} 
